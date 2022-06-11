@@ -1,0 +1,72 @@
+
+what is Linux 
+Few networking concepts 
+what is ipadress 
+ what is ipv4/ipv6 classifications
+IP classifications in network
+How to identify the network or subnet using ipadress 
+what is subnet 
+what is gateway   gateway is also called as router  
+
+
+
+Linux :
+ Linux is a operating system. 
+  Linux can be used as multi user operating systems 
+  Linux is a multi tasking operating system 
+  Linux can be used for hosting our applications 
+  Linux can be used as Load balancer using vrrip protocol 
+  Linux can act as network router 
+  
+  
+   os works 
+   
+   
+  Linux will have namespaces . what is a namespaces
+ 
+Namespaces are partions in kernel which takes care of specific resources 
+
+Following are the namespaces in Linux 
+
+Net namespace/network namespace
+pid namespace/ process map namespace
+mount namespace/ disk namespace
+user namespace 
+
+
+
+
+ Network??
+ 
+ what is network??
+ 
+ set of devices connected to each other for establishing communication is called network. 
+ in each network each device is identified uniquly with the help of ipadress . 
+ 
+ what is an ipadress ?? 
+  its a logical names assigned for our devices to identify them uniquly in a network. 
+  
+  ip adress can be of 32 bit or 64 bit        
+  
+  32 bit ip adress are called as ipv4 
+  64 bit ip adress are called as ipv6            2^n  n=8   255 
+
+                              ip adress  192.168.0.1    the number before each period is called as one octate      1 octate = 8 bits      4*8=32 
+							                             in ipv4 first 2 octates will indicate network   second 2 octates will indicate hostname in a network
+                               ipv6 adress  fe80::a00:27ff:fe3f:2100  are in hexa decimal format  they are segregated with : 64 bit 
+  
+  
+  
+  classification in ipadress adresses. 
+          CLASS A | CLASS B | CLASS C| CLASS D | CLASS E | CLASS F 
+		  
+		   CLASS A     192.0.0.1    16 thousand
+		   CLASS B     192.168.0.1  6400 thousand 
+		   CLASS C     192.10.12.0   256    
+            
+ 
+  
+ subnet: 
+      division of a a single network to small multiple networks is called subnet/sub networking 
+	  
+	  
